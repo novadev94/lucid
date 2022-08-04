@@ -71,6 +71,7 @@ export class Lucid {
             provider.data.projectId,
           ),
         )
+        // FIXME: Cost models should be loaded from protocol parameters instead :)
         .costmdls(costModels())
         .build();
     }
